@@ -2,3 +2,40 @@
     width: 70%;
     margin: 0 auto;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.App {
+  text-align: center;
+  background-color: #e8ede9;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #151366 !important;
+}
+
+#navbar__name {
+  color: #2ebc6d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+#navbar__navigation {
+  color: #2ebc6d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+#navbar__navigation:hover {
+  color: #eec401;
+}
+
+/* Jumbotron */
+#jumbotron {
+  background-color: lightblue;
+}
