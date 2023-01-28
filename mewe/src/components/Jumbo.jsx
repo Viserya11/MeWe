@@ -3,7 +3,7 @@ import { Jumbotron, Button } from "react-bootstrap";
 
 export default function Jumbo() {
   return (
-    <Jumbotron>
+    <Jumbotron id="jumbotron">
       <h1>Hello, world!</h1>
       <div className="d-flex">
         <p>
